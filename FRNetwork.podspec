@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.version = "1.0"
   s.license = { :type => "MIT", :file => "LICENSE" }
-  s.author = { "note1" => "note2" }
-  s.homepage = "note3"
-  s.source = { :git => "note4", :tag => "#{s.version}"}
+  s.author = { "hapt" => "phanhai151@gmail.com" }
+  s.homepage = "https://github.com/phanthanhhai/FRNetwork"
+  s.source = { :git => "https://github.com/phanthanhhai/FRNetwork.git", :tag => "#{s.version}"}
   s.framework = "UIKit"
   s.framework = "CoreLocation"
   s.dependency 'SwiftyJSON', '~> 2.3.2'
